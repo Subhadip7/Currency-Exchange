@@ -16,8 +16,28 @@ The HTML code includes the necessary meta tags for character encoding and viewpo
 
 Overall, this code sets up the basic structure and elements required for a currency converter web page, allowing users to select currencies and enter amounts for conversion.
 
-2.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
+2. style.css
+This is a CSS code snippet that styles a currency converter web page. Here's a brief explanation of the code:
+
+The :root selector defines a CSS variable --primary-color for the primary color used in the page.
+The * selector applies the box-sizing: border-box property to all elements, ensuring the correct sizing of elements with padding and borders.
+The body styles define the background color, font family, and layout properties for the page. It uses flexbox to center the content vertically and horizontally.
+The h1 and p styles define the color and alignment for heading and paragraph elements.
+The .btn style defines the appearance of buttons, including background color, text color, cursor style, and padding.
+The .money-img style defines the appearance of the currency image, including its maximum width, height, grayscale effect, border, box shadow, and opacity.
+The .currency style defines the layout and spacing for the currency section, including padding, flexbox properties, and alignment.
+The .currency select style modifies the appearance of the currency dropdown menus, including padding, border, font size, and background image.
+The .currency input style modifies the appearance of the input fields for entering amounts, including background color, font size, and text alignment.
+The .swap-rate-container style defines the layout and spacing for the swap button and rate section, including flexbox properties and alignment.
+The .rate style defines the color, font size, and padding for the rate section.
+The select:focus, input:focus, and button:focus styles remove the outline when the respective elements are focused.
+The @media query applies specific styles when the screen width is below 600 pixels, adjusting the width of the currency input fields.
+In summary, this CSS code provides a basic styling for the currency converter web page, including colors, layout, and appearance of various elements. 
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 3.script.js
  This JavaScript code performs the following tasks:
